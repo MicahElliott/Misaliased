@@ -1,0 +1,9 @@
+{:paths ["bb"]
+ :deps {;; medley/medley {:mvn/version "1.3.0"}
+        ;; org.babashka/sci {:mvn/version "0.3.5"}
+        ;; org.clojure/tools.namespace {:mvn/version "1.3.0"}
+        ;; borkdude/edamame {:mvn/version "1.0.0"}
+        ;; Ended up just using parcera
+        carocad/parcera {:mvn/version "0.11.6"}
+        ;; org.sonatype.oss/antlr4-master {:mvn/version "4.10.2-SNAPSHOT"}
+        clj-antlr/clj-antlr {:mvn/version "0.2.12"}}}
